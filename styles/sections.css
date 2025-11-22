@@ -115,6 +115,10 @@ header p {
   
 }
 
+.project-card a {
+  text-decoration: none;
+}
+
 .project-card:hover {
   border: 1px solid  var(--gray-200);
   transform: translateY(-3px);
