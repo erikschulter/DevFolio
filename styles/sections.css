@@ -1,0 +1,276 @@
+#intro {
+  background-image: url(../assets/images/Background_Intro.png);
+  width: 100%;
+  height: 750px;
+  background-size: cover;
+  
+}
+
+#info {
+  display: flex;
+  padding-top: 120px;
+  margin: 0px auto;
+  justify-content: center;
+  height: 447px;
+  width: 1040px;
+}
+
+header {
+  margin: 0px 180px 120px 180px;
+  text-align: center;
+}
+
+header img {
+  padding-bottom: 56px;
+}
+
+.apresentation-p {
+  padding-bottom: 8px;
+}
+
+header h1 {
+  font: var(--title-lg);
+  color: var(--gray-100);
+  padding-bottom: 20px;
+}
+
+header p {
+  font: var(--text-sm);
+  color: var(--gray-300);
+  padding-bottom: 80px;
+}
+
+#tags {
+  padding-top: 80px;
+}
+
+#tags ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  justify-content: center;
+}
+
+#tags li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 8px 16px;
+}
+
+#tags li p {
+  font: var(--text-md);
+  color: var(--gray-200);
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 57px;
+
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  background-color: var(--gray-500);
+  padding-left: 8px;
+  padding-bottom: 144px;
+}
+
+.texts {
+  text-align: center;
+  background-color: var(--gray-500);
+  padding-top: 72px;
+  padding-bottom: 56px;
+}
+
+.texts p {
+  font: var(--subtitle);
+  color: var(--red);
+  padding-bottom: 8px;
+  padding-left: 10px;
+
+}
+
+.texts h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+  padding-left: 10px;
+}
+
+
+
+.project-card {
+  background-color: var(--gray-400);
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  
+}
+
+.project-card:hover {
+  border: 1px solid  var(--gray-200);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+.project-card img {
+  display: grid;
+  margin: 12px 12px 20px 12px;
+  width: 306px;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  padding-left: 12px;
+  padding-bottom: 8px;
+  font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+.project-card p {
+  padding-left: 12px;
+  font: var(--text-sm);
+  color: var(--gray-200);
+}
+
+#services {
+  background-color: var(--gray-600);
+  padding-bottom: 120px;
+}
+
+.services-text {
+  p {
+    color: var(--red);
+    font: var(--subtitle);
+    padding-bottom: 8px;
+  }
+
+  h2 {
+    font: var(--title-md);
+    color: var(--gray-100);
+  }
+
+  text-align: center;
+  padding-top: 88px;
+  padding-bottom: 56px;
+}
+
+.cards {
+  h3 {
+    padding-top: 20px;
+    font: var(--title-sm);
+    color: var(--gray-100);
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+    padding-top: 8px;
+  }
+
+  border: 1px solid var(--gray-400);
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  height: 155px;
+}
+
+
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding-top: 128px;
+
+}
+
+.contact-text {
+  justify-content: center;
+  text-align: center
+}
+
+.contact-text :first-child {
+  color: var(--purple);
+  font: var(--subtitle);
+  padding-bottom: 8px;
+}
+
+.contact-text h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+  padding-bottom: 8px;
+}
+
+.contact-text :last-child {
+  font: var(--text-md);
+  color: var(--gray-200);
+  padding-bottom: 48px;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+
+#links a {
+  text-decoration: none;
+}
+
+.social-buttons {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-400);
+  padding: 20px;
+  width: 400px;
+  border-radius: 8px;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.social-buttons:hover {
+  
+  border: 1px solid  var(--gray-200);
+  transform: translateY(-3px);
+  cursor: pointer;
+  
+  
+}
+
+.social-buttons :first-child {
+  display: flex;
+  padding-right: 12px;
+  align-items: center;
+}
+
+.social-buttons p {
+  display: flex;
+  align-items: center;
+  font: var(--text-md-maven);
+  color: var(--gray-200);
+  width: 288px;
+}
+
+.social-buttons :last-child{
+  padding-left: 12px;
+}

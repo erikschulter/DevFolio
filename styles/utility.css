@@ -1,0 +1,28 @@
+.apresentation-p {
+  font: var(--subtitle);
+  color: var(--gray-200);
+}
+
+.highlight {
+  color: var(--red);
+}
+
+.gray-200 {
+  color: var(--gray-200);
+}
+
+.red {
+  color: var(-red);
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.yellow {
+  color: var(--yellow);
+}
+
+.green {
+  color: var(--green);
+}
